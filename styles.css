@@ -29,11 +29,20 @@ body {
   font-size: 35px;
 }
 
+.grid-item:active {
+  transform: scale(0.98);
+}
+
 .screen {
   grid-area: header;
   background-color: white;
   text-align: end;
   color: black;
+  font-size: 60px;
+}
+
+.screen:active {
+  transform: scale(1);
 }
 
 .all-clear,

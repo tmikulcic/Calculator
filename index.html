@@ -9,12 +9,12 @@
   </head>
   <body>
     <div class="grid-container">
-      <input class="grid-item screen" type="text" value="0"></input>
+      <input class="grid-item screen" type="text" autofocus="true" onblur="" value=""></input>
       <div class="grid-item all-clear">AC</div> 
       <div class="grid-item delete">DEL</div> 
       <div class="grid-item operator">%</div> 
       <div class="grid-item operator">/</div> 
-      <div class="grid-item number">7</div> 
+      <div class="grid-item number" data-key="55"><kbd>7</kbd></div> 
       <div class="grid-item number">8</div> 
       <div class="grid-item number">9</div>
       <div class="grid-item operator">*</div> 
@@ -27,8 +27,9 @@
       <div class="grid-item number">3</div>
       <div class="grid-item operator">+</div> 
       <div class="grid-item number">0</div>
+      <div class="grid-item number">000</div>
       <div class="grid-item number">.</div>
-      <div class="grid-item equal">=</div> 
+      <div class="grid-item equal" onclick="Test(5,4)">=</div> 
     </div>
     <script src="script.js"></script>
   </body>
