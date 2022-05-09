@@ -10,8 +10,8 @@
   <body>
     <div class="grid-container">
       <div id="screen"></div>
-      <div class="button all-clear">AC</div>
-      <div class="button delete">DEL</div>
+      <div class="button all-clear" onclick="allClear()">AC</div>
+      <div class="button delete" onclick="deleteNumber()">DEL</div>
       <div class="button operator">%</div>
       <div class="button operator">/</div>
       <div class="button number">7</div>
@@ -29,7 +29,7 @@
       <div class="button number">0</div>
       <div class="button number">000</div>
       <div class="button number">.</div>
-      <div class="button equal">=</div>
+      <div class="button equal" onclick="operate()">=</div>
     </div>
     <script src="script.js"></script>
   </body>

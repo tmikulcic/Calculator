@@ -9,3 +9,13 @@ buttons.map((button) => {
     }
   });
 });
+
+function operate() {
+  console.log(screen.innerText);
+  screen.innerText = eval(screen.innerText);
+}
+
+function allClear() {
+  screen.innerText = '';
+}
+function deleteNumber() {}
