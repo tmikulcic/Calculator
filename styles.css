@@ -33,7 +33,7 @@ body {
   transform: scale(0.98);
 }
 
-.screen {
+#screen {
   grid-area: header;
   background-color: white;
   text-align: end;
