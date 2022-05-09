@@ -1,6 +1,8 @@
-window.addEventListener('keydown', function (e) {
-  const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
-});
+let screen = document.getElementById('screen');
+let buttons = Array.from(document.getElementsByClassName('button'));
 
-const keys = document.querySelectorAll('key');
-keys.forEach((key) => key.addEventListener('transitionend', removeTransition));
+buttons.map((button) => {
+  button.addEventListener('click', (e) => {
+    console.log(e.target);
+  });
+});
