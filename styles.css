@@ -29,8 +29,20 @@ body {
   font-size: 35px;
 }
 
-.button:active {
+.button:active,
+.buttonOperator:active {
   transform: scale(0.98);
+}
+
+.buttonOperator {
+  font-size: 30px;
+  background-color: white;
+  border: black solid 1px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
 }
 
 #screen {
