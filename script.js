@@ -18,4 +18,7 @@ function operate() {
 function allClear() {
   screen.innerText = '';
 }
-function deleteNumber() {}
+
+function deleteNumber() {
+  screen.innerText = screen.innerText.slice(0, -1);
+}
